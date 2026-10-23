@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light border-bottom sticky-top">
+  <div class="container-fluid">
+    <!-- Brand / Compass Icon -->
+    <a class="navbar-brand text-dark" href="/listings"><i class="fa-regular fa-compass"></i></a>
+    
+    <!-- Hamburger Button for Mobile -->
+    <button
+      class="btn-icon navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+
+    <!-- Offcanvas Menu: Automatically shows horizontally on desktop, and as a sliding drawer on mobile -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">Menu</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <!-- Single set of links that adapts automatically to screen size -->
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-medium" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-medium" href="/listings">All Listings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-medium" href="/listings/new">Add new Listings</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
