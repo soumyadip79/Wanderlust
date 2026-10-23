@@ -1,7 +1,15 @@
 body {
   background-color: #ffffff; /* Make sure this is white */
   color: #000000;            /* Make sure text is dark  */
+
+
+
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600 !important;
+  font-style: normal;
 }
+
 
 .navbar {
   height: 4.5rem;
@@ -73,7 +81,7 @@ body {
     display: flex;
     text-align: center;
     background-color: #ebebeb;
-    height: 5.2rem;
+    height: 5.8rem;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -97,4 +105,40 @@ body {
 .row{
     display: flex;
     justify-content: center;
+}
+
+.card{
+  position: relative !important;
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img{
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body{
+  padding: 0 !important;
+
+}
+
+.card-text p{
+
+}
+
+.listing-link{
+  display: inherit;        /* or display: flex / inline-block depending on your layout */
+  text-decoration: none; /* removes the default link underline */
+  color: inherit; 
+}
+
+.card-img-overlay{
+  opacity: 0;
+}
+
+.card-img-overlay:hover{
+  background-color: white;
+  opacity: 0.2;
 }
