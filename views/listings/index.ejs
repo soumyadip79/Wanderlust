@@ -1,10 +1,11 @@
 <% layout("/layouts/boilerplate") %>
 <body>
-    <h3>All Listings</h3>
+    <h3 style="margin-top:1rem;">All Listings</h3>
 
-    <form method="GET" action="/listings/new">
+    <!-- <form method="GET" action="/listings/new">
       <button>Create New Listing</button>
-    </form>
+    </form> -->
+    <br>
 
     <div class="row row-cols-lg-3  row-cols-md-3 row-cols-sm-1 ">
       <% for(let listing of allListings) { %>

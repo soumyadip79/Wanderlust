@@ -8,6 +8,14 @@ body {
   font-optical-sizing: auto;
   font-weight: 600 !important;
   font-style: normal;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  flex:1;
 }
 
 
@@ -67,6 +75,7 @@ body {
 /* footer */
 
 .f-info-links a{
+    margin: .3rem;
     text-decoration: none;
     color: #222222;
 
@@ -81,7 +90,7 @@ body {
     display: flex;
     text-align: center;
     background-color: #ebebeb;
-    height: 5.8rem;
+    height: 6rem;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -141,4 +150,12 @@ body {
 .card-img-overlay:hover{
   background-color: white;
   opacity: 0.2;
+}
+
+.add-btn{
+  background-color: #ff385c !important;
+  font-size: medium !important;
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+  border-radius: 20px !important;
 }
