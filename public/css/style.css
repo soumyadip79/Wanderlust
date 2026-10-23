@@ -133,9 +133,6 @@ body {
 
 }
 
-.card-text p{
-
-}
 
 .listing-link{
   display: inherit;        /* or display: flex / inline-block depending on your layout */
