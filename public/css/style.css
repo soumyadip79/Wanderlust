@@ -90,7 +90,7 @@ body {
     display: flex;
     text-align: center;
     background-color: #ebebeb;
-    height: 6rem;
+    height: 6.2rem;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -156,3 +156,35 @@ body {
   padding-left: 2rem !important;
   border-radius: 20px !important;
 }
+
+
+ /****************************Show Page********************  */
+.show-img{
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 30px !important;
+}
+
+.card-text{
+  line-height: 2.5;
+  font-size: larger;
+}
+
+.card-text b{
+  font-weight: 800;
+}
+
+.show-card{
+  border: 2px solid black !important;
+  box-shadow: 1px 1px 8px black;
+  border-radius: 30px !important;
+  padding: 1rem;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+
